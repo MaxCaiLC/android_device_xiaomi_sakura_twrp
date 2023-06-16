@@ -5,4 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_sakura.mk
+	$(LOCAL_DIR)/twrp_sakura.mk
+	
+COMMON_LUNCH_CHOICES := \
+    twrp_sakura-eng \
+    twrp_sakura-userdebug
